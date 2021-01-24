@@ -50,7 +50,7 @@ const App = () => {
       <TouchableWithoutFeedback
         onPressIn={handlePressIn}
         onPressOut={handlePressOut}>
-        <Animated.View style={([styles.button], animatedStyle)}>
+        <Animated.View style={([styles.button,animatedStyle])}>
           <Text style={styles.Text}>Press Me</Text>
         </Animated.View>
       </TouchableWithoutFeedback>
